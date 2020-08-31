@@ -1,0 +1,46 @@
+.grid{
+    height: 250px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1rem;
+    grid-row: 1rem;
+    margin-top: 2rem;
+    background-color: #ffffff;
+}
+.btn-primary{
+    justify-content: stretch;
+}
+.text-box{
+    height: 200px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+  }
+.card-img{
+    opacity: 0.6;
+}
+.banner{
+    height: 350px;
+}
+.zetta{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/allison-bances-ZXMOKT1LM9c-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.futa{
+    height: 350px;
+}
+.port{
+    text-align: right;
+}
+.layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+.sec1{
+    display: flex;
+}
